@@ -25,6 +25,10 @@
   src: url("./assets/madefor-text.var.original.woff2");
 }
 
+body{
+  overflow-x: hidden;
+}
+
 
 #page-in{
   position: relative;

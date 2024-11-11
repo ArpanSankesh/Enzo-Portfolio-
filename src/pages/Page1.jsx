@@ -12,14 +12,14 @@ const Page1 = () => {
 
   const mouseMove = (e) => {
     const rect = tiltRef.current.getBoundingClientRect();
-    setXVal((e.clientX - rect.x - rect.width / 2) / 40);
-    setYVal(-(e.clientY - rect.y - rect.height / 2) / 20);
+    setXVal((e.clientX - rect.x - rect.width / 1.5) / 20);
+    setYVal(-(e.clientY - rect.y - rect.height / 1.5) / 10);
   };
 
   useGSAP(function () {
       gsap.to(tiltRef.current, {
         transform: `rotateX(${yVal}deg) rotateY(${xVal}deg)`,
-        duration: 5,
+        duration: 10,
         ease: 'power3.out'
       });
     },
