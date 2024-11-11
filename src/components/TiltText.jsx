@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 
-
-const TiltText = () => {
+const TiltText = (props) => {
+    
   return (
-    <div className="mt-40">
+    <div id="tiltDiv" ref={props.tilt} className="mt-40">
         <h1 className="text-[4.5vw] leading-[4vw] font-[anzo1]">I AM <span className="text-black">DARK MODE</span>™</h1>
         <h1 className="text-[7.5vw] leading-[6.5vw] font-[anzo1]">DESIGNER</h1>
         <h1 className="text-[4.5vw] leading-[4vw] font-[anzo1]">TO HIRE</h1>
