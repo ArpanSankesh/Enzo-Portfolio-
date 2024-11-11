@@ -13,7 +13,6 @@ const Page2 = () => {
             stagger:1, 
             scrollTrigger:{
                 trigger:'#rotateText h1',
-                markers:true,
                 start: "top 100%",
                 end:'top -200%',
                 scrub:1
