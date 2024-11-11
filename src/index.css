@@ -4,23 +4,23 @@
 
 @font-face {
   font-family: anzo1;
-  src: url('./assets/file.woff2');
+  src: url("./assets/file.woff2");
 }
 @font-face {
   font-family: anzo2;
-  src: url('./assets/file\ \(1\).woff2');
+  src: url("./assets/file\ \(1\).woff2");
 }
 @font-face {
   font-family: anzo3;
-  src: url('./assets/file\ \(2\).woff2');
+  src: url("./assets/file\ \(2\).woff2");
 }
 
 @font-face {
   font-family: anzo3;
-  src: url('./assets/file\ \(3\).woff2');
+  src: url("./assets/file\ \(3\).woff2");
 }
 
 @font-face {
   font-family: anzo5;
-  src: url('./assets/madefor-text.var.original.woff2');
+  src: url("./assets/madefor-text.var.original.woff2");
 }
