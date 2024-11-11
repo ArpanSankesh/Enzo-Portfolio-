@@ -30,8 +30,13 @@
   position: relative;
   perspective: 1000px;
 }
+#rotateText{
+  position: relative;
+  perspective: 1000px;
+}
 
 #tiltDiv{
   width: fit-content;
   transform: rotateY(10deg);
 }
+
