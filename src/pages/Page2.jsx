@@ -504,7 +504,7 @@ const Page2 = () => {
         </svg>
       </div>
 
-      <div className="h-1 w-1/3 relative left-1/2 -translate-x-1/2 mt-16 rounded-full bg-black"></div>
+      <div className="line h-1 w-1/3 relative left-1/2 -translate-x-1/2 mt-16 rounded-full bg-black"></div>
     </div>
   );
 };
