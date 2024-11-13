@@ -7,16 +7,17 @@ const Page2 = () => {
   gsap.registerPlugin(ScrollTrigger);
   useGSAP(function () {
     gsap.from("#rotateText h1", {
-      transform: "rotateX(-80deg)",
+      transform: "rotateX(-90deg)",
       opacity: 0,
       duration: 1,
       stagger: 1,
       color:'white' ,
       scrollTrigger: {
         trigger: "#rotateText h1",
-        start: "top 100%",
-        end: "top -200%",
-        scrub: 3,
+        start: "top 30%",
+        markers: true,
+        end: "top -210%",
+        scrub: 2,
       },
     });
   });

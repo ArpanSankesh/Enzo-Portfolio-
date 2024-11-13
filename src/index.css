@@ -37,6 +37,10 @@ body{
   position: relative;
   perspective: 1000px;
 }
+#rotateText2{
+  position: relative;
+  perspective: 1000px;
+}
 
 #tiltDiv{
   width: fit-content;
