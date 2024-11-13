@@ -12,7 +12,6 @@ const Page3 = () => {
       duration:2,
       scrollTrigger:{
         trigger: '.line',
-        markers: true,
         scrub:true,
         start:'top 100%',
         end:'top 50%'
