@@ -7,20 +7,21 @@ const Page2 = () => {
   gsap.registerPlugin(ScrollTrigger);
   useGSAP(function () {
     gsap.from("#rotateText h1", {
-      transform: "rotateX(-90deg)",
+      transform: "rotateX(-80deg)",
       opacity: 0,
       duration: 1,
       stagger: 1,
+      color:'white' ,
       scrollTrigger: {
         trigger: "#rotateText h1",
         start: "top 100%",
         end: "top -200%",
-        scrub: 1,
+        scrub: 3,
       },
     });
   });
   return (
-    <div id="rotateText" className="w-full h-screen text-black">
+    <div id="rotateText" className="w-full min-h-screen text-black">
       <h3 className="text-center m-5 text-lg text-gray-600 font-[anzo2]">
         © anzo.studio 2024 | designed and developed
       </h3>
