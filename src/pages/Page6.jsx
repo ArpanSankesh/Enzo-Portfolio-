@@ -1,10 +1,9 @@
 
 const Page6 = () => {
   return (
-    <div className="h-screen p-4 text-white">
-      <div id="page-in" className="z-10 w-full h-full bg-[url(https://static.wixstatic.com/media/f1c650_1baf8f9dcad444669565ec73ee697a92~mv2.jpg/v1/fill/w_1724,h_1203,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Background%20Anzo_Studio.jpg)] bg-cover rounded-[2rem] shadow-lg shadow-grey-700 px-14 py-12">
-        
-      </div>
+    <div className="h-screen p-4 text-white relative">
+      <video muted autoPlay loop playsInline  className="bg-cover rounded-[2rem]" src="https://video.wixstatic.com/video/11062b_92619c730c4b4b0bb27ea39c4276a52b/1080p/mp4/file.mp4"></video>
+      <h1 className="absolute bottom-[-22%] left-24 font-[anzo3]  text-white text-[41vw]">ABOUT</h1>
     </div>
   )
 }
